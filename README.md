@@ -17,11 +17,11 @@
 			$ cd systemc-2.3.1
         2.新建一个临时文件夹objdir：
 			$ mkdir objdir
-		3.进入该文件夹objdir： 
+	3.进入该文件夹objdir： 
 			$ cd objdir
-		4.运行configure（能根据系统的环境设置参数，用于编译）：
+	4.运行configure（能根据系统的环境设置参数，用于编译）：
 		  	$ ../configure CXX=g++ --disable-async-updates
-		5.编译并自行记录编译完后文件目录：
+	5.编译并自行记录编译完后文件目录：
 			$ sudo make install
 - 编译DOL
 
