@@ -35,21 +35,21 @@
 			
 - 编译DOL
 
-		1.进入DOL的文件夹，修改build_zip.xml文件
+			1.进入DOL的文件夹，修改build_zip.xml文件
 		
-		  找到下面这段话，就是说上面编译的systemc位置在哪里，
+			  找到下面这段话，就是说上面编译的systemc位置在哪里，
 		  
-		    <property name="systemc.inc" value="YYY/include"/>
+		 	   <property name="systemc.inc" value="YYY/include"/>
 		    
-		    <property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"/>
+		 	   <property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"/>
 		    
-		  把YYY改成上页pwd的结果
+			  把YYY改成上页pwd的结果
 		  
-		2.编译：
+			2.编译：
 		
-			$ ant -f build_zip.xml all
+				$ ant -f build_zip.xml all
 			
-		  若成功会显示build successful
+			  若成功会显示build successful
 		  
 
 - 安装结果
